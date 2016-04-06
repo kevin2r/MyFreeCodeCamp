@@ -1,0 +1,30 @@
+{
+  "name": "freecodecamp",
+  "version": "0.1.0",
+  "description": "My Free Code Camp repository",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin2r/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "javascript"
+  ],
+  "author": "Kevin Rodriguez",
+  "license": "LGPL-3.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/kevin2r/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/kevin2r/FreeCodeCamp#readme",
+  "devDependencies": {
+    "chai": "^3.4.1"
+  }
+}
