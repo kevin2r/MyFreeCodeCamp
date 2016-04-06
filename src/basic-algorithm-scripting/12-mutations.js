@@ -27,9 +27,7 @@ function mutation(arr) {
 
   return arr[1]
     .split('')
-    .every(char => arr[0].indexOf(char) + 1);
-    //I add 1 to always get a true value in the case that arr[0].indexOf(char) returns 0
-     
+    .every(char => arr[0].indexOf(char) !== -1);    
 }
 
 module.exports = mutation;
