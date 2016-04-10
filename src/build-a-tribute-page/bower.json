@@ -1,0 +1,23 @@
+{
+  "name": "tribute page",
+  "description": "a simple tribute page",
+  "main": "index.html",
+  "authors": [
+    "Kevin Rodriguez"
+  ],
+  "license": "bsd",
+  "homepage": "https://github.com/kevin2r/MyFreeCodeCamp",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
