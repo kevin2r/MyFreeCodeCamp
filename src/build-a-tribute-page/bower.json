@@ -1,11 +1,11 @@
 {
-  "name": "tribute page",
-  "description": "a simple tribute page",
+  "name": "Tribute page",
+  "description": "A simple tribute page",
   "main": "index.html",
   "authors": [
     "Kevin Rodriguez"
   ],
-  "license": "bsd",
+  "license": "ISC",
   "homepage": "https://github.com/kevin2r/MyFreeCodeCamp",
   "moduleType": [
     "node"
