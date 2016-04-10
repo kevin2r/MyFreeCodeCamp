@@ -26,7 +26,7 @@ function rot13(str) { // LBH QVQ VG!
   let decoded = str
     .split('')
     .map(char =>
-      !~alphabet.indexOf(char)
+      alphabet.indexOf(char) == -1
         ? char
         : alphabet[(alphabet.indexOf(char) + 13) % 26])
     .join('');

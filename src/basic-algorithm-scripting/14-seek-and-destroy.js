@@ -17,7 +17,7 @@ function destroyer(arr) {
     ? [arguments[0]]
     : Array.apply(null, arguments);
 
-  arr = arr.filter(val => !~args.indexOf(val));
+  arr = arr.filter(val => args.indexOf(val) === -1);
 
   return arr;
 }
