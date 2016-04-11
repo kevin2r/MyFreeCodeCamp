@@ -7,7 +7,7 @@ var express = require('express'),
  
 var app = express();
  
-var publicDir = path.join(__dirname, '');
+var publicDir = path.join(__dirname, '/public');
  
 app.set('port', process.env.PORT || 3000);
 app.use(logger('dev'));
