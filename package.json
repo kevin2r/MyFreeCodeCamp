@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/kevin2r/FreeCodeCamp#readme",
   "devDependencies": {
-    "chai": "^3.4.1"
+    "chai": "^3.4.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
   }
 }
