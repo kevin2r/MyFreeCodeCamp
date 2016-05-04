@@ -10,17 +10,17 @@ test.createStream()
   .pipe(process.stdout);
 
 test('Should reverse a string', function(t){
+  
   t.plan(4);
 
-  t.equal(typeof reverseString('yeah'), 'string' );
+  t.equal(typeof reverseString('yeah'), 'string' , 'Should return a string');
 
   const input = ['hello', 'Howdy', 'Greetings from Earth'];
   const output = ['olleh', 'ydwoH', 'htraE morf sgniteerG'];
 
   input.forEach((curr, idx) => {
-    t.equal(reverseString(curr), output[idx]);
+    t.equal(reverseString(curr), output[idx], 'Should reverse a string');
   });
-
 
 });
 
