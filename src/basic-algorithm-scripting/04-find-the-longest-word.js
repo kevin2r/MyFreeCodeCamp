@@ -12,13 +12,8 @@
 'use strict';
 
 function findLongestWord(str) {
-  
-  let sorted = str
-    .split(' ')
-    /* if arrow function is less than 0 sort 'a' to lower index than 'b' */
-    .sort( (a, b) => a.length - b.length );
 
-  return sorted[sorted.length - 1].length;
+  return Math.max(...str.split(' ').map(s => s.length));
 }
 
 module.exports = findLongestWord;
