@@ -30,8 +30,7 @@ test('Should return an array with the largest numbers from each provided sub-arr
   ];
 
 
-
-  // Explain why I used deepEqual
+  // deepEqual() compares the enumerable properties of each object
   input.forEach((curr, index) => {
     t.deepEqual(largestNumbers(curr), output[index]);
   });
