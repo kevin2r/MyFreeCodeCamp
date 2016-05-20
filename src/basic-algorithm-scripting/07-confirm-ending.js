@@ -1,7 +1,7 @@
 /*
  * Module: Front-End Development Certification
  * Section: Basic Algorithm Scripting
- * Challenge: Return Largest Numbers in Arrays
+ * Challenge: Confirm the ending
  * https://www.freecodecamp.com/challenges/confirm-the-ending
  *
  * Check if a string (first argument, str) ends with
