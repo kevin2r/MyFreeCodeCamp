@@ -18,6 +18,4 @@
   .type('Full-Stack Web Developer').pause(pause).delete()
   .type('Kevin Rodriguez.')
 
-}())
-
-
+}());
